@@ -1,0 +1,123 @@
+@font-face {
+    font-family:"MTC" ;
+    src: url(Fonts/SD/gCR.ttf);
+}
+
+body{
+    font-family: "Roboto";
+    background: #fff;
+    margin: 0;
+}
+
+nav {
+    background: linear-gradient(rgba(75,75,75,0.5), rgba(75,75,75,0.5));
+    opacity: 1 ;
+    height: 10vh ;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.75), 0 1px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav h1{
+    font-family:"MTC";
+    color: #fff;
+}
+
+header{
+   width: 100%;
+   height: 100vh; 
+}
+
+.bg{
+    width: 100% ;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(Images/1bfe26316e7852046947e3b7a28fe339.gif);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    width: 90% ;
+    height:70% ;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    margin: 10px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.caja:hover{
+
+}
+
+.caja .segunda img{
+    width:50%
+}
+
+.caja .segunda{
+    width: 100%;
+    height: 60%;
+    background: #181d3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja .raya{
+    width: 100%;
+    height: 10%;
+    background: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #151515;
+
+}
+
+.caja .tercera{
+    width: 100%;
+    height: 30%;
+    background: #bdc3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja .tercera p{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: #151515;
+}
